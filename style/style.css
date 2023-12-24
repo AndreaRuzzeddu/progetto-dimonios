@@ -1,0 +1,22 @@
+.txt {
+	text-align: center !important;
+}
+
+.img-thumbnail {
+	width: 10%;
+	background-color: #b30000;
+}
+
+.search-float {
+	text-align: right;
+}
+
+.img-thumbnail-main {
+	width: 10%;
+	background-color: #b30000;
+}
+
+.inline {
+display: inline;
+padding: 4px;
+}
