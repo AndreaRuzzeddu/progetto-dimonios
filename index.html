@@ -7,24 +7,33 @@
 		<link rel="shortcut icon" href="img/favicon.ico"/> 
 		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"/>
 		<link rel="stylesheet" type="text/css" href="style/style.css"/>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
 	</head>
 	<body>
 		<script> src="bootstrap/js/bootstrap.bundle.min.js"</script>
 		<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+		<script src="https://kit.fontawesome.com/42acdc296b.js" crossorigin="anonymous"></script>
 		<header>
 			<!--logo, immagine e icona-->
-			<h1 class="txt">PROGETTO DIMONIOS</h1>
-			<img src="img/logo.png" class="img-thumbnail" alt="logo di Progetto Dimonios" title="Logo di Progetto Dimonios">
+			<div class="container-fluid">
+				<div class="row icon-img">
+					<img src="img/logo.png" class="img col-md-2" alt="Logo di Progetto Dimonios" title="Logo di Progetto Dimonios">
+					<h1 class="txt col-md-8 gradient"><strong>PROGETTO DIMONIOS</strong></h1>
+					<i class="fa-solid fa-user col-md-2 icon"></i>
+				</div>
+			</div>
 		</header>
 
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
 		  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 		    <div class="navbar-nav">
-		      <a class="nav-link" href="#">Lettere</a>
-		      <a class="nav-link" href="#">Cartoline</a>
-		      <a class="nav-link" href="#">Fotografie</a>
-		      <a class="nav-link" href="#"> Sfoglia la collezione</a>
+		      <a class="nav-link" href="#" title="Lettere">Lettere</a>
+		      <a class="nav-link" href="#" title="Cartoline">Cartoline</a>
+		      <a class="nav-link" href="#" title="Fotografie">Fotografie</a>
+		      <a class="nav-link" href="#" title="Vedi tutti gli items della collezione"> Sfoglia la collezione</a>
 		    </div>
 		     <form class="form-inline">
 			    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -32,19 +41,27 @@
 			 </form>
 		  </div>
 		</nav>
-		<main>
-			<p>
-				Rivivi alcuni punti salienti delle tre battaglie
-				<!--immagine di sfondo-->
-				<img src="img/logo.png" class="img-thumbnail-main" alt="logo di Progetto Dimonios" title="Logo di Progetto Dimonios">
-				<button>Sfoglia la collezione</button>
-			</p>
-			<p>
-				<!--immagine-->
-				<p>
-					Testo chi siamo e perché questo sito
+		<main class="container-color">
+			<div class="container-fluid">
+				<p class="container-txt">
+					<strong>Rivivi alcuni punti salienti delle tre battaglie</strong>
+				</p>	
+					<!--immagine di sfondo-->
+					<img src="img/logo.png" class="img-size" alt="Logo di Progetto Dimonios" title="Logo di Progetto Dimonios">
+					<button type="button" class="btn btn-outline-secondary margin button-color"><a href="#" title="Vedi tutti gli items della collezione">Sfoglia la collezione</a></button>
 				</p>
-				<button>Scopri di più</button>
+			</div>
+			<div class="container-fluid container-padding gray">
+				<div class="row">
+					<div class="col-md-6">
+						<img src="img/presentazione.jpeg" class="img-container" alt="Monumento alla Brigata Sassari sulla Dolina Sassari" title="Monumento alla Brigata Sassari sulla Dolina Sassari">
+					</div>
+				<p class="col-md-6">
+					Progetto Dimonios nasce da un forte senso di appartenenza alla terra natìa del creatore Andrea Ruzzeddu. In team, è stata sviluppata una collezione di lettere, cartoline e fotografie riguardanti le tre battaglie contro gli austriaci in cui la Brigata Sassari ha avuto un ruolo decisivo nel successo dell'Italia. Il sito vuole mostrare una delle tante punte di diamante del territorio sardo da sempre scarsamente valorizzato.
+					<button type="button" class="btn btn-outline-secondary margin button-color"><a href="#" title="Scopri di più">Scopri di più</a></button>
+				</p>
+				</div>
+			</div>			
 			</p>
 			<p>
 				<h2>Le ultime aggiunte</h2>
@@ -130,28 +147,32 @@
 					  </div>
 					</div>
 			</p>
-			<p>
+			<div class="row">
+			<p class="col-md-6">
 				Hai oggetti simili a casa tua che potrebbero cambiare o arricchire il corso delle storia? Scrivici ed inviaci il tuo materiale!
-				<img src="img/iscriviti.jpg" class="img-thumbnail" alt="Immagine per registrazione">
-				<button>Registrati per controllare il processo di approvazione</button>
+			<button type="button" class="btn btn-outline-secondary margin button-color"><a href="#" title="Registrati per controllare il processo di approvazione">Registrati per controllare il processo di approvazione!</a></button>
+		</p>
+				<img src="img/iscriviti.jpg" class="img-size col-md-6" alt="Immagine per registrazione">
 				<!--immagine-->
-			</p>
-			<p>
+			</div>	
+			<div class="row">
+			<img src="img/newsletter.jpg" class="img-size col-md-6" alt="Immagine per newsletter">
+			<p class="col-md-6">
 				Rimani aggiornato sulle aggiunte alla collezione!
-				<img src="img/newsletter.jpg" class="img-thumbnail" alt="Immagine per newsletter">
-				<button>Iscriviti alla newsletter!</button>
+			<button type="button" class="btn btn-outline-secondary margin button-color"><a href="#" title="Iscriviti alla newsletter">Iscriviti alla newsletter!</a></button>
 			</p>
+			</div>
 		</main>	
 		<footer>
 			<!--loghi esempio-->
 		</footer>
-		<footer>
+		<footer class="footer">
 			<ul class="list-group list-group-horizontal">
-			  <li class="list-group-item flex-fill txt">Andrea Ruzzeddu</li>
-			  <li class="list-group-item flex-fill txt">Ultimo aggiornamento: 24/12/2023</li>
-			  <li class="list-group-item flex-fill txt">Bibliografia generale</li>
-			  <li class="list-group-item flex-fill txt">Web Project Plan</li>
-			  <li class="list-group-item flex-fill txt">Copyrights</li>
+			  <li class="list-group-item flex-fill txt footer"><a href="#" title="Creatore">Andrea Ruzzeddu</a></li>
+			  <li class="list-group-item flex-fill txt footer"><a href="#" title="Cronologia degli aggiornamenti della collezione e del sito">Ultimo aggiornamento: 24/12/2023</a></li>
+			  <li class="list-group-item flex-fill txt footer"><a href="#" title="Bibliografia dei contenuti del sito">Bibliografia generale</a></li>
+			  <li class="list-group-item flex-fill txt footer"><a href="#" title="Web Project Plan del sito">Web Project Plan</a></li>
+			  <li class="list-group-item flex-fill txt footer"><a href="#" title="Licenze dei contenuti">Copyrights</li>
 			</ul>
 		</footer>
 	</body>

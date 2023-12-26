@@ -1,22 +1,103 @@
-.txt {
-	text-align: center !important;
+body {
+	font-family: 'Manrope', sans-serif;
 }
 
-.img-thumbnail {
-	width: 10%;
+a {
+	color: white !important;
+}
+
+.txt {
+	text-align: center !important;
+	padding: 2.5%;
+	color: white;
+}
+
+.img {
+	margin: 0;
 	background-color: #b30000;
+}
+
+.gradient {
+	background-image: linear-gradient(to left, rgba(179, 0, 0, 0), rgba(179, 0, 0, 1));
+	margin: 0;
+
 }
 
 .search-float {
 	text-align: right;
 }
 
+.icon {
+	font-size: 40px;
+	text-align: center;
+	padding: 2.5%;
+}
+
+.icon-img {
+	background-image: url("../img/head.jpeg");
+	position: static;
+	top: -20px;
+	
+}
 .img-thumbnail-main {
 	width: 10%;
 	background-color: #b30000;
 }
+.img-size {
+	width: 30%;
+	height: 30%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
 
-.inline {
-display: inline;
-padding: 4px;
+.img-container {
+	max-width: 120%;
+	height: 50%;
+	display: block;
+ 	margin-left: auto;
+  	margin-right: auto;
+}
+
+.container-color {
+	background-color: darkgray;
+}
+
+.container-txt {
+	text-align: center;
+	padding-top: 2%;
+}
+
+.container-padding {
+	padding: 8%;
+}
+
+.gray {
+	background-color: gray;
+}
+
+.margin {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+.button-color {
+	color: white;
+	border-color: white;
+}
+
+.button-color:hover {
+	background-color: #660000 !important;
+	border-color: #660000 !important;
+}
+
+.button-color:active {
+	text-decoration: none;
+}
+
+.footer {
+	background-color: gray !important;
 }
