@@ -89,13 +89,12 @@ a {
 	box-shadow: none !important;
 	transition-duration: 0;
 }
-}
-.icon {
-	font-size: 40px;
+
+.fa-5x {
+	margin-top: 50px;
+	margin-left: 100px;
 	color: white;
-	margin: auto;
-	text-align: center;
-	padding: 2.5%;
+	cursor: pointer;
 }
 
 .icon-img {
