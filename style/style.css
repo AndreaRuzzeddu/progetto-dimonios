@@ -6,6 +6,10 @@ a {
 	color: white !important;
 }
 
+#link-color {
+color: black !important;
+}
+
 .txt-color {
 	color: white;
 	display: block;
@@ -371,6 +375,12 @@ h2 {
 	opacity: 0;
 }
 
+#img-size-special {
+	display: block;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
 .card-img-overlay:hover {
 	background-color: #ff9999;
 	transition-duration: 0.3s;
@@ -509,6 +519,12 @@ h3 {
 
 #active-1 {
 	background-color: #660000 !important;
+}
+
+			/* pagina "Giovanni Porcheddu" */
+#map {
+	  height: 400px;
+    width: 100%;
 }
 
 /* vedi align-self-center per carousel */
