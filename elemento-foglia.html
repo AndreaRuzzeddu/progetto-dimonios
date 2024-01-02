@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="it">
 
 
 	<head>
@@ -12,6 +12,18 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
 		<title>Progetto Dimonios</title>
+
+		<!--metadati Dublin Core per descrivere la risorsa-->
+		<META NAME="DC.Title" CONTENT="Progetto Dimonios"/>
+		<META NAME="DC.Creator" CONTENT="Andrea Ruzzeddu"/>
+		<META NAME="DC.Subject" CONTENT="Brigata Sassari"/>
+		<META NAME="DC.Description" CONTENT="Collezione di lettere, fotografie e cartoline spedite e ricevute durante la Prima Guerra Mondiale soldati della Brigata Sassari e altri soggetti con pagine di approfondimento per ogni item, persona e luogo menzionato"/>
+		<META NAME="DC.Publisher" CONTENT="GitHub"/>
+		<META NAME="DC.Date" CONTENT="02/01/2024"/>
+		<META NAME="DC.Type" CONTENT="Collezione di testimonianze dirette"/>
+		<META NAME="DC.Format" CONTENT="Risorsa digitale"/>
+		<META NAME="DC.Language" CONTENT="Italiano"/>
+		<META NAME="DC.Rights" CONTENT="Creative Commons"/>
 	</head>
 
 
@@ -48,7 +60,7 @@
 			     	 	<a class="nav-link navbar-color navbar-color-li" href="#">Cartoline</a>
 			     	</li>
 			     	<li class="nav-item">
-			    	 	<a class="nav-link navbar-active" href="#">Fotografie</a>
+			    	 	<a class="nav-link navbar-active" href="fotografie.html">Fotografie</a>
 			    	</li>
 			    	<li class="nav-item">
 			     	 	<a class="nav-link navbar-color navbar-color-li" href="#"> Sfoglia la collezione</a>
@@ -71,13 +83,45 @@
 
 		<main class="container-color main-padding">
 			<div class="row">
-				<div class="col-md-2 aside-size">
-					provaaaaaaa
+				<div class="col-md-2 aside-size-1">
+					<aside>
+						<table class="table table-borderless">
+							<tbody>
+							    <tr>
+							      	<td>Aggiungi alla tua libreria</td>
+							      	<td class="align-middle"><a href="#"><img src="icons/plus-circle.svg" class="aside-button" alt="Icona per aggiungere l'oggetto alla tua libreria"></a></td>
+							    </tr>
+							    <tr>
+							    	<td class="align-middle">
+							    		<p class="download">Download</p>
+								    	<div class="form-check form-check-inline">
+										  	<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+										  	<label class="form-check-label" for="inlineRadio1">.jpg</label>
+										</div>
+										<div class="form-check form-check-inline">
+										  	<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+										  	<label class="form-check-label" for="inlineRadio2">.png</label>
+										</div>
+									</td>
+							      	<td class="align-middle"><a href="#"><img src="icons/download.svg" class="aside-button" alt="Icona per scaricare l'oggetto"></a></td>
+							    </tr>
+							    <tr>
+							      	<td class="align-middle">Like</td>
+							      	<td class="align-middle"><a href="#"><img src="icons/hand-thumbs-up-fill.svg" id="aside-button-special" class="aside-buttons" alt="Icona per mettere *mi piace* all'oggetto"></a></td>
+							    </tr>
+							    <tr>
+							      	<td class="align-middle">Condividi</td>
+							      	<td class="align-middle"><a href="#"><img src="icons/share.svg" class="aside-button" alt="Icona per condividere la pagina dell'oggetto sui social tramite link copiabile"></a></td>
+							    </tr>
+							</tbody>
+						</table>
+					</aside>
 				</div>
-				<div class="col-md-10">
+				<div class="col-md-10 container-fluid">
 					<div class="row">
 						<div class="col-md-5">
-							<table class="table">
+							<h2 id="h2-special">Giovanni Porcheddu</h2>
+							<table class="table table-size">
 							  <thead class="thead-dark">
 							    <tr>
 							      <th scope="col">First</th>
@@ -129,10 +173,10 @@
 							</table>
 						</div>
 						<div class="col-md-7 container">
-							<img src="img/piu-piaciute-2.jpeg">
+							<img src="img/piu-piaciute-2.jpeg" class="img-size-1">
 						</div>
 					</div>
-					<p class="container-box-1">
+					<p class="container-box-1" id="container-box-1-special">
 						La fotografia ritrae Giovanni Porcheddu a venti anni appoggiato su un mobile con un braccio.
 						Giovanni Porcheddu nacque a Siligo (SS) nel 1895. Nel 1915 fu chiamato alle armi ed arruolato nel 151° reggimento di fanteria della Brigata Sassari. Combatté in alcune battaglie sull’Isonzo nello stesso anno. Il figlio Filippo Porcheddu ha deciso di condividere insieme alla fotografia alcune testimonianze correlate circa la guerra di trincea presumibilmente raccontate dal padre. Le fasi erano le seguenti: "attesa, l'intenso fuoco di preparazione dell'artiglieria, il fuoco dei cecchini, l'uscita notturna dei posatubi e dei guastatori, l'assalto in massa alla baionetta, ad ondate umane, nel tentativo di irrompere tra le file austriache attraverso gli esigui squarci nel filo spinato". C’era anche un metodo d’assalto alternativo chiamato “Azione ardita”: pochi uomini irrompevano nelle linee nemiche di sorpresa durante la notte. Quest’ultimo metodo ben si confaceva ai soldati della Brigata Sassari, perché la chiave per il successo si basava sulla fiducia e la complicità; e i sardi da sempre mostrano il loro senso di appartenenza alla terra natìa e la vicinanza ai compatrioti locali. Giovanni spiccò in una di queste azioni per coraggio nel 1917. Perciò venne citato nell’ordine del giorno del reggimento.
 						Nello stesso anno, Giovanni eseguì un’altra “azione ardita” durante una delle battaglie per la riconquista del Monte Zebio: il comandante del suo plotone fu ferito in battaglia, allora egli prese il comando per la terza incursione dopo aver eseguito con successo già due azioni dirompenti. Per il grande ardore e la prontezza di riflessi, gli fu conferita la Medaglia d’Argento nel 1919.

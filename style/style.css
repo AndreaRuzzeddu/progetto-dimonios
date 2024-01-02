@@ -522,9 +522,51 @@ h3 {
 }
 
 			/* pagina "Giovanni Porcheddu" */
+#h2-special {
+	margin-top: 0;
+}
+
 #map {
 	  height: 400px;
     width: 100%;
 }
 
+.table-size {
+	margin-left: 20px;
+	margin-right: 20px;
+	width: inherit;
+}
+
+.aside-size-1 {
+	position: sticky;
+	top: 50px;
+	z-index: 1;
+	color: black;
+	background-color: white;
+	border-style: solid;
+	border-color: black;
+	border-radius: 0;
+	max-width: 12% !important;
+	height: 320px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.aside-button {
+	width: 2em;
+	height: 2em;
+}
+
+#aside-button-special {
+	width: 2.1em;
+	height: 2.1em;
+}
+
+#container-box-1-special {
+	margin-top: 3%;
+}
+
+.download {
+	margin-bottom: -1%;
+}
 /* vedi align-self-center per carousel */
