@@ -11,6 +11,15 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+
+		<!--leaflet-->
+		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     	integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     	crossorigin=""/>
+     	<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     	integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     	crossorigin=""></script>
+
 		<title>Progetto Dimonios</title>
 
 		<!--metadati Dublin Core per descrivere la risorsa-->
@@ -41,7 +50,7 @@
 					<a href="index.html" class="col-md-2 img"><img src="img/logo.png" class="img-linked" alt="Logo di Progetto Dimonios" title="Logo di Progetto Dimonios"></a>
 					<h1 class="txt txt-header col-md-8 gradient"><strong>PROGETTO DIMONIOS</strong></h1>
 					<div class="col-md-2">
-						<i class="fa-solid fa-user fa-5x"><a href="#"></a></i>
+						<a href="#"><img src="icons/user.svg" alt="Icona per accesso utente" class="user-icon"></a>
 					</div>
 				</div>
 			</div>
@@ -77,7 +86,7 @@
   			<ol class="breadcrumb">
     			<li class="breadcrumb-item"><a href="index.html" id="breadcrumb-link">Home</a></li>
     			<li class="breadcrumb-item"><a href="fotografie.html" id="breadcrumb-link">Fotografie</a></li>
-    			<li class="breadcrumb-item" aria-current="page">Giovanni Porcheddu</li>
+    			<li class="breadcrumb-item" aria-current="page">Giovanni Porcheddu, medaglia d'argento della Brigata Sassari</li>
   			</ol>
 		</nav>
 
@@ -118,58 +127,70 @@
 					</aside>
 				</div>
 				<div class="col-md-10 container-fluid">
-					<div class="row">
+					<div class="row container-fluid">
 						<div class="col-md-5">
-							<h2 id="h2-special">Giovanni Porcheddu</h2>
-							<table class="table table-size">
-							  <thead class="thead-dark">
-							    <tr>
-							      <th scope="col">First</th>
-							      <th scope="col">Last</th>
-							    </tr>
-							  </thead>
-							  <tbody>
-							    <tr>
-							      <td>Mark</td>
-							      <td>Otto</td>
-							    </tr>
-							    <tr>
-							      <td>Jacob</td>
-							      <td>Thornton</td>
-							    </tr>
-							    <tr>
-							      <td>Larry</td>
-							      <td>the Bird</td>
-							    </tr>
-							    <tr>
-							      <td>Larry</td>
-							      <td>the Bird</td>
-							    </tr>
-							    <tr>
-							      <td>Larry</td>
-							      <td>the Bird</td>
-							    </tr>
-							    <tr>
-							      <td>Larry</td>
-							      <td>the Bird</td>
-							    </tr>
-							    <tr>
-							      <td>Larry</td>
-							      <td>the Bird</td>
-							    </tr>
-							    <tr>
-							      <td>Larry</td>
-							      <td>the Bird</td>
-							    </tr>
-							    <tr>
-							      <td>Larry</td>
-							      <td>the Bird</td>
-							    </tr>
-							    <tr>
-							      <td>Larry</td>
-							      <td>the Bird</td>
-							    </tr>
-							  </tbody>
+							<h2 id="h2-special">Giovanni Porcheddu, medaglia d'argento della Brigata Sassari</h2>
+							<table class="table table-size txt-white">
+							  	<thead class="thead-dark">
+							    	<tr>
+							      		<th scope="col">Metadati</th>
+							      		<th></th>
+							      	</tr>
+							  	</thead>
+							  	<tbody>
+							    	<tr>
+							      		<td>Title (DC)</td>
+							      		<td>Giovanni Porcheddu medaglia d'argento della Brigata Sassari</td>
+							    	</tr>
+							   		<tr>
+							      		<td>Type (DC)</td>
+							      		<td>Fotografia</td>
+							    	</tr>
+							    	<tr>
+									    <td>Format (DC)</td>
+									    <td>1240 × 1754 pixel</td>
+							    	</tr>
+							    	<tr>
+							      		<td>Date (DC)</td>
+							      		<td>1915</td>
+							    	</tr>
+							    	<tr>
+							      		<td>Place (DC)</td>
+							      		<td>Isonzo; Altopiano di Asiago; Siligo</td>
+							    	</tr>
+							    	<tr>
+							      		<td>Sender</td>
+							      		<td>Giovanni Porcheddu</td>
+							    	</tr>
+							    	<tr>
+							      		<td>Recipient</td>
+							      		<td>Filippo Porcheddu</td>
+							    	</tr>
+							    	<tr>
+							      		<td>Document status</td>
+							      		<td>Integro</td>
+							    	</tr>
+							    	<tr>
+							      		<td>Subject (DC)</td>
+							      		<td>Soldato</td>
+							    	</tr>
+							    	<tr>
+							      		<td>Description (DC)</td>
+							      		<td>Foto del soldato Giovanni Porcheddu a venti anni appoggiato ad un mobile con un braccio</td>
+							    	</tr>
+							    	<tr>
+							      		<td>Language (DC)</td>
+							      		<td>Italiano</td>
+							    	</tr>
+							    	<tr>
+							      		<td>Publisher and source (DC)</td>
+							      		<td>Europeana 1914-1918</td>
+							    	</tr>
+							    	<tr>
+							      		<td>Rights Management (DC)</td>
+							      		<td>CC BY-SA</td>
+							    	</tr>
+							  	</tbody>
 							</table>
 						</div>
 						<div class="col-md-7 container">
@@ -187,8 +208,44 @@
 					</p>
 				</div>
 			</div>
-			<div class="container-fluid">
-				Mappa
+
+			<!--mappa tramite leaflet-->
+			<div class="container-fluid" id="map">
+				<script>
+					var map = L.map('map').setView([40.7262339,8.4639191], 7);
+
+					L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+	    			attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+					}).addTo(map);
+
+					var leafletIcon = L.icon ({
+						iconUrl: 'icons/marker-icon-red.png',
+						iconSize: [22,39],
+						iconAnchor: [12,36]
+					})
+
+					var marker = L.marker([40.576575, 8.726746],{icon:leafletIcon})
+						.bindPopup("Siligo; altri n. documenti relativi").openPopup();
+						marker.addTo(map);
+
+					var marker = L.marker([45.8999928,11.4610317],{icon: leafletIcon})
+						.bindPopup("Altopiano d'Asiago; altri n. documenti relativi").openPopup();
+						marker.addTo(map);
+
+					var marker = L.marker([46.0657211,13.6016763], {icon: leafletIcon})
+						.bindPopup("Fiume Isonzo; altri n. documenti relativi").openPopup();
+						marker.addTo(map);
+
+					var latlngs = [
+					    [40.576575, 8.726746],
+					    [45.8999928,11.4610317],
+					    [46.0657211,13.6016763]
+					];
+
+					var polyline = L.polyline(latlngs, {color: 'gray'}).addTo(map);
+
+					map.fitBounds(polyline.getBounds());
+				</script>
 			</div>
 		</main>
 
