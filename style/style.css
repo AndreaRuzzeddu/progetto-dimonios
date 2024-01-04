@@ -386,7 +386,7 @@ h2 {
 }
 
 .card-img-overlay:hover {
-	background-color: #ff9999;
+	background-color: #e9ecef;
 	transition-duration: 0.3s;
 	opacity: 0.7;
 	color: black;
