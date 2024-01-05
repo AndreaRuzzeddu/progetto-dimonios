@@ -603,4 +603,12 @@ a.leaflet-control-zoom-out {
 	border-bottom-color: white;
 }
 
+#last-button {
+	border-bottom-color: transparent;
+}
+
+.button-group-sticky {
+	position: sticky;
+	top: 50px;
+}
 /* vedi align-self-center per carousel */
