@@ -50,7 +50,9 @@
 		<header>
 			<div class="container-fluid">
 				<div class="row icon-img">
-					<a href="index.html" class="col-md-2 img"><img src="img/logo.png" class="img-linked" alt="Logo di Progetto Dimonios" title="Logo di Progetto Dimonios"></a>
+					<div class="col-md-2 img">
+						<a href="index.html" title="Torna alla homepage"><img src="img/logo.png" class="img-linked" alt="Logo di Progetto Dimonios"></a>
+					</div>
 					<h1 class="txt txt-header col-md-8 gradient"><strong>PROGETTO DIMONIOS</strong></h1>
 					<div class="col-md-2">
 						<a href="#"><img src="icons/user.svg" alt="Icona per accesso utente" class="user-icon"></a>
@@ -115,11 +117,13 @@
 										  	<label class="form-check-label" for="inlineRadio2">.png</label>
 										</div>
 										<div class="form-check form-check-inline">
-										  	<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option3">
+										  	<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">									  	
 										  	<label class="form-check-label" for="inlineRadio3">.pdf</label>
 										</div>
 									</td>
-							      	<td class="align-middle"><a href="#"><img src="icons/download.svg" class="aside-button" alt="Icona per scaricare l'oggetto"></a></td>
+							      	<td class="align-middle">
+							      		<a href="download/giovanni-porcheddu.zip" download><img src="icons/download.svg" class="aside-button"></a>
+							      	</td>
 							    </tr>
 							    <tr>
 							      	<td class="align-middle">Like</td>
@@ -137,11 +141,10 @@
 					<div class="row container-fluid">
 						<div class="col-md-5">
 							<h2 id="h2-special">Giovanni Porcheddu, medaglia d'argento della Brigata Sassari</h2>
-							<table class="table table-size txt-white">
+							<table class="table table-size">
 							  	<thead class="thead-dark">
 							    	<tr>
-							      		<th scope="col">Metadati</th>
-							      		<th></th>
+							      		<th colspan="2">Metadati</th>
 							      	</tr>
 							  	</thead>
 							  	<tbody>
@@ -201,7 +204,7 @@
 							</table>
 						</div>
 						<div class="col-md-7 container">
-							<img src="img/piu-piaciute-2.jpeg" class="img-size-1">
+							<img src="img/piu-piaciute-2.jpeg" class="img-size-1" alt="Immagine di Giovanni Porcheddu, soldato della Brigata Sassari">
 						</div>
 					</div>
 					<p class="container-box-1" id="container-box-1-special">
@@ -211,12 +214,11 @@
 						Negli anni successivi partecipò alle vicende della battaglia di Bainsizza e alle vicende di Caporetto.
 						Nel 1918 termina il suo contributo per la Brigata: durante la battaglia dei Tre Monti (1918) fu ferito ripetutamente evitando la morte per fortuna. La sua ultima partecipazione gli fece ottenere il Distintivo d’onore ed un foglio di congedo illimitato.
 						Filippo cita solo brevemente il ricordo degli attimi in cui il padre raccontava tutti i momenti di precarietà cui egli non era esente, la quotidianità e le catastrofi al fronte. Il padre è tratteggiato come un uomo che, come tanti altri, si è trovato un fucile in mano ed è stato mandato allo sbaraglio in battaglia; ma nonostante questo si è distinto per il suo valore e per il suo senso del dovere; qualità tipiche di tutti i sardi coinvolti nella Grande Guerra.
-						Filippo ha allegato delle fotografie di alcuni documenti citati e di alcune medaglie del padre: clicca qui per vederle.
 					</p>
 				</div>
 			</div>
 
-			<!--mappa tramite leaflet-->
+			<!--Mappa tramite leaflet-->
 			<div class="container-fluid" id="map">
 				<script>
 					var map = L.map('map').setView([40.7262339,8.4639191], 7);
@@ -254,6 +256,7 @@
 					map.fitBounds(polyline.getBounds());
 				</script>
 			</div>
+
 		</main>
 
 		<footer class="container-fluid container-color-2">
@@ -273,15 +276,15 @@
 					</div>
 				</div>
 			<hr class="white">	
-			<span class="footer container-margin">
+			<div class="footer container-margin">
 				<ul class="list-group list-group-horizontal-md">
 				  	<li class="list-group-item flex-fill txt footer navbar-color-li"><a href="#" title="Creatore">Andrea Ruzzeddu</a></li>
 				  	<li class="list-group-item flex-fill txt footer navbar-color-li"><a href="#" title="Cronologia degli aggiornamenti della collezione e del sito">Ultimo aggiornamento: 24/12/2023</a></li>
 				  	<li class="list-group-item flex-fill txt footer navbar-color-li"><a href="#" title="Bibliografia dei contenuti del sito">Bibliografia generale</a></li>
-				  	<li class="list-group-item flex-fill txt footer navbar-color-li"><a href="#" title="Web Project Plan del sito">Web Project Plan</a></li>
+				  	<li class="list-group-item flex-fill txt footer navbar-color-li"><a href="web-project-plan.html" title="Web Project Plan del sito">Web Project Plan</a></li>
 				  	<li class="list-group-item flex-fill txt footer navbar-color-li"><a href="web-project-pla.html" title="Licenze dei contenuti">Copyrights</a></li>
 				</ul>
-			</span>
+			</div>
 		</footer>
 
 	</body>
