@@ -27,44 +27,46 @@
 	</head>
 
 
-	<body class="container-color">
+	<body class="background-color-1">
 
-		<script> src="bootstrap/js/bootstrap.bundle.min.js"</script>
 		<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+		<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 		<script src="https://kit.fontawesome.com/42acdc296b.js" crossorigin="anonymous"></script>
 
 		<header>
 			<div class="container-fluid">
 				<div class="row icon-img">
-					<div class="col-md-2 img">
-						<img src="img/logo.png" class="img-linked" alt="Logo di Progetto Dimonios">
+					<div class="col-md-2 background-logo">
+						<img src="img/logo.png" class="img-logo-size" alt="Logo di Progetto Dimonios">
 					</div>
-					<h1 class="txt txt-header col-md-8 gradient"><strong>PROGETTO DIMONIOS</strong></h1>
+					<h1 class="txt col-md-8 gradient"><strong>PROGETTO DIMONIOS</strong></h1>
 					<div class="col-md-2">
-						<a href="#"><img src="icons/user.svg" alt="Icona per accesso utente" class="user-icon"></a>
+						<a href="#"><svg xmlns="icons/user.svg" class="bi bi-person-circle user-icon" viewBox="0 0 16 16">
+  							<path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+  							<path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+						</svg></a>
 					</div>
 				</div>
 			</div>
 		</header>
 
-		<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-color navbar-padding sticky">
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-padding sticky">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-navigation" aria-controls="navbar-navigation" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
-			<div class="collapse navbar-collapse" id="navbarNav">
+			<div class="collapse navbar-collapse" id="navbar-navigation">
 			  	<ul class="navbar-nav">
 			  		<li class="nav-item">
-			    	 	<a class="nav-link navbar-color navbar-color-li" href="#">Documenti</a>
+			    	 	<a class="nav-link nav-footer-color" href="#">Cartoline</a>
 			    	</li>
 			    	<li class="nav-item">
-			     	 	<a class="nav-link navbar-color navbar-color-li" href="#">Cartoline</a>
+			     	 	<a class="nav-link nav-footer-color" href="#">Documenti</a>
 			     	</li>
 			     	<li class="nav-item">
-			    	 	<a class="nav-link navbar-color navbar-color-li" href="fotografie.html">Fotografie</a>
+			    	 	<a class="nav-link nav-footer-color" href="fotografie.html">Fotografie</a>
 			    	</li>
 			    	<li class="nav-item">
-			     	 	<a class="nav-link navbar-color navbar-color-li" href="#"> Sfoglia la collezione</a>
+			     	 	<a class="nav-link nav-footer-color" href="#"> Sfoglia la collezione</a>
 			     	</li>
 			     </ul>
 			</div>
@@ -75,34 +77,35 @@
 		</nav>
 
 		<main>
-			<div class="container-fluid container-style container-img">
-				<p class="container-txt txt">
-					<span class="container-box">
-						<strong>Rivivi alcuni punti salienti delle tre battaglie</strong>
-					</span>
-					<img src="img/logo.png" class="img-size" alt="Logo di Progetto Dimonios">
-					<button type="button" class="btn btn-outline-secondary button-color"><a href="#">Sfoglia la collezione</a></button>
-				</p>
-			</div>
-			<div class="container-padding-1">
-				<div class="row container-margin">
-					<div class="col-md-7">
-						<img src="img/presentazione.jpeg" class="img-container-1" title="Monumento alla Brigata Sassari sulla Dolina Sassari" alt="Monumento alla Brigata Sassari sulla Dolina Sassari" >
-					</div>
-					<p class="col-md-5 container-txt-padding">
-						Progetto Dimonios nasce da un forte senso di appartenenza alla terra natìa del creatore Andrea Ruzzeddu. In team, è stata sviluppata una collezione di lettere, cartoline e fotografie riguardanti le tre battaglie contro gli austriaci in cui la Brigata Sassari ha avuto un ruolo decisivo nel successo dell'Italia. Il sito vuole mostrare una delle tante punte di diamante del territorio sardo da sempre scarsamente valorizzato.
-						<button type="button" class="btn btn-outline-secondary margin button-color"><a href="#" title="Scopri di più">Scopri di più</a></button>
+			<div class="container-fluid container-hero">
+				<div class="txt">
+					<p class="txt container-box">
+						<strong>Rivivi gli attimi di gloria della Brigata Sassari durante la prima Guerra Mondiale attraverso una collezione di cartoline, documenti e fotografie del periodo</strong>
 					</p>
+					<img src="img/logo.png" class="img-size" alt="Logo di Progetto Dimonios">
+					<button type="button" class="btn btn-outline-secondary red-button-style"><a href="#">Sfoglia la collezione</a></button>
 				</div>
 			</div>
-			<hr class="hr-special">
-			<p class="margin-p">
+			<div class="container-padding-1">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-7">
+							<img src="img/presentazione.jpeg" class="overview-img" title="Monumento alla Brigata Sassari sulla Dolina Sassari" alt="Monumento alla Brigata Sassari sulla Dolina Sassari">
+						</div>
+						<p class="col-md-5 overview-txt-style">
+							Progetto Dimonios nasce da un forte senso di appartenenza alla terra natìa del creatore Andrea Ruzzeddu. In team, è stata sviluppata una collezione di cartoline, documenti e fotografie riguardanti le tre battaglie contro gli austriaci in cui la Brigata Sassari ha avuto un ruolo decisivo nel successo dell'Italia. Il sito vuole mostrare una delle tante punte di diamante del territorio sardo da sempre scarsamente valorizzato
+							<button type="button" class="btn btn-outline-secondary button-align red-button-style"><a href="#" title="Scopri di più">Scopri di più</a></button>
+						</p>
+					</div>
+				</div>
+			</div>
+			<hr class="hr-darkgray">
 				<h2><strong>Ultimi inserimenti</strong></h2>
-					<div id="carouselExampleCaptions" class="carousel slide carousel-box" data-ride="carousel">
+					<div id="carousel-slide" class="carousel slide background-color-2" data-ride="carousel">
   						<ol class="carousel-indicators">
-						    <li data-target="#carouselExampleCaptions" data-slide-to="0"></li>
-						    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-						    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+						    <li data-target="#carousel-slide" data-slide-to="0"></li>
+						    <li data-target="#carousel-slide" data-slide-to="1"></li>
+						    <li data-target="#carousel-slide" data-slide-to="2"></li>
 						</ol>
   						<div class="carousel-inner">
     						<div class="carousel-item active">
@@ -127,104 +130,107 @@
       							</div>
     						</div>
   						</div>
-	  				<button class="carousel-control-prev carousel-button-style" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
-	    				<span class="carousel-control-prev-icon carousel-button-style" aria-hidden="true"></span>
-	    				<span class="sr-only">Previous</span>
-	  				</button>
-	  				<button class="carousel-control-next carousel-button-style" type="button" data-target="#carouselExampleCaptions" data-slide="next">
-	    				<span class="carousel-control-next-icon" aria-hidden="true"></span>
-	    				<span class="sr-only">Next</span>
-	  				</button>
-				</div>
-			</p>
-			<p class="cards-margin">
+		  				<button class="carousel-control-prev" type="button" data-target="#carousel-slide" data-slide="prev">
+		    				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		    				<span class="sr-only">Previous</span>
+		  				</button>
+		  				<button class="carousel-control-next" type="button" data-target="#carousel-slide" data-slide="next">
+		    				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+		    				<span class="sr-only">Next</span>
+		  				</button>
+					</div>
 				<h2>Più piaciute del mese</h2>
-					<div class="row container-margin">
-					 	<div class="col mb-4">
+				<div class="container-fluid">
+					<div class="row row-margin">
+					 	<div class="col-mb-3 col-align">
 					    	<div class="card">
-					      		<img src="img/piu-piaciute-1.png" class="card-img" id="img-size-special" alt="Immagine di una cartolina commemorativa sul capitano di complemento della Brigata Sassari Eugenio Niccolai">
+					      		<img src="img/piu-piaciute-1.png" id="img-size-special-1" alt="Immagine di una cartolina commemorativa sul capitano di complemento della Brigata Sassari Eugenio Niccolai">
 					      			<div class="card-img-overlay">
-					        			<a href="#" id="link-color" title="Vai alla scheda completa"><h4 class="card-title overlay">Medaglia d'oro Eugenio Niccolai. Capitano di complemento della Brigata Sassari</h4>
+					        			<a href="#" id="link-black" title="Vai alla scheda completa"><h4 class="card-title overlay">Medaglia d'oro Eugenio Niccolai. Capitano di complemento della Brigata Sassari</h4>
 					        			<p class="card-text overlay">Museo Centrale del Risorgimento</p></a>
 					      			</div>
 					    	</div>
 					    </div>
-					  	<div class="col mb-4">
+					  	<div class="col-mb-3 col-align">
 					    	<div class="card">
-					      		<img src="img/piu-piaciute-2.jpeg" class="card-img" alt="Immagine di Giovanni Porcheddu, soldato della Brigata Sassari">
+					      		<img src="img/piu-piaciute-2.jpeg" alt="Immagine di Giovanni Porcheddu, soldato della Brigata Sassari">
 					      		<div class="card-img-overlay">
-					        		<a href="elemento-foglia.html" id="link-color" title="Vai alla scheda completa"><h4 class="card-title overlay">Giovanni Porcheddu, medaglia d'argento della Brigata Sassari</h4>
+					        		<a href="elemento-foglia.html" id="link-black" title="Vai alla scheda completa"><h4 class="card-title overlay">Giovanni Porcheddu, medaglia d'argento della Brigata Sassari</h4>
 					        		<p class="card-text overlay">Filippo Porcheddu</p></a>
 					      		</div>
 					    	</div>
 					  	</div>
-					  	<div class="col mb-4">
+					  	<div class="col-mb-3 col-align">
 					    	<div class="card">
-					      		<img src="img/piu-piaciute-3.png" class="card-img" alt="Immagine di un attestato di assegnazione della medaglia d'argento al valor militare e del soprassoldo di cento lire annue al soldato Giuseppe Cossu">
+					      		<img src="img/piu-piaciute-3.png" id="img-size-special-2" alt="Immagine di un attestato di assegnazione della medaglia d'argento al valor militare e del soprassoldo di cento lire annue al soldato Giuseppe Cossu">
 					      		<div class="card-img-overlay">
-					        		<a href="#" id="link-color" title="Vai alla scheda completa"><h4 class="card-title  overlay">Attestato di assegnazione della medaglia d'argento al valor militare e del [...] al soldato Giuseppe Cossu</h4>
+					        		<a href="#" id="link-black" title="Vai alla scheda completa"><h4 class="card-title  overlay">Attestato di assegnazione della medaglia d'argento al valor militare e del [...] al soldato Giuseppe Cossu</h4>
 					        		<p class="card-text overlay">Istituto Centrale per il Catalogo Unico delle biblioteche italiane</p></a>
 					      		</div>
 					    	</div>
 					  	</div>
-					  	<div class="col mb-4">
+					  	<div class="col-mb-3 col-align">
 					    	<div class="card">
-					      		<img src="img/piu-piaciute-4.png" class="card-img" id="card-img" alt="Immagine di un bollettino di guerra del 15 novembre 1915">
+					      		<img src="img/piu-piaciute-4.png" id="img-size-special-3" alt="Immagine di un bollettino di guerra del 15 novembre 1915">
 					      		<div class="card-img-overlay">
-					        		<a href="#" id="link-color" title="Vai alla scheda completa"><h4 class="card-title overlay">Bollettino di guerra N. 173. Comando Supremo 15 novembre 1915</h4>
+					        		<a href="#" id="link-black" title="Vai alla scheda completa"><h4 class="card-title overlay">Bollettino di guerra N. 173. Comando Supremo 15 novembre 1915</h4>
 					        		<p class="card-text overlay">Museo Centrale del Risorgimento</p></a>
 					     	 	</div>
 					    	</div>
 					  	</div>
 					</div>
-			</p>
-			<div class="row container-padding container-margin gray">
-				<p class="col-md-6 container-txt-1 box">
-				Hai oggetti simili a casa tua che potrebbero cambiare o arricchire il corso delle storia? Scrivici ed inviaci il tuo materiale!
-					<button type="button" class="btn btn-outline-secondary margin button-color"><a href="#">Registrati per controllare il processo di approvazione!</a></button>
-				</p>
-				<div class="col-md-6">
-					<img src="img/iscriviti.png" class="img-size-1" alt="Immagine per registrazione">
-				</div>	
-			</div>
-			<div class="row container-padding container-margin">
-				<div class="col-md-6">
-					<img src="img/newsletter.png" class="img-size-1" alt="Immagine per newsletter">
 				</div>
-				<p class="col-md-6 container-txt-1 box">
-				Rimani aggiornato sulle aggiunte alla collezione!
-					<button type="button" class="btn btn-outline-secondary margin button-color"><a href="#">Iscriviti alla newsletter!</a></button>
-				</p>
+			<div class="container-fluid background-color-2">
+				<div class="row row-style">
+					<p class="col-md-6 box">
+					Hai oggetti simili a casa tua che potrebbero cambiare o arricchire il corso delle storia? Scrivici ed inviaci il tuo materiale!
+						<button type="button" class="btn btn-outline-secondary button-align red-button-style"><a href="#">Registrati per controllare il processo di approvazione!</a></button>
+					</p>
+					<div class="col-md-6">
+						<img src="img/iscriviti.png" class="img-size-1" alt="Immagine per registrazione">
+					</div>	
+				</div>
+			</div>
+			<div class="container-fluid">
+				<div class="row row-style">
+					<div class="col-md-6">
+						<img src="img/newsletter.png" class="img-size-1" alt="Immagine per newsletter">
+					</div>
+					<p class="col-md-6 box">
+					Rimani aggiornato sulle aggiunte alla collezione!
+						<button type="button" class="btn btn-outline-secondary button-align red-button-style"><a href="#">Iscriviti alla newsletter!</a></button>
+					</p>
+				</div>
 			</div>
 		</main>
 
 
-		<footer class="container-fluid container-color-2">
+		<footer class="container-fluid background-color-2">
 			<h2 class="txt-footer">Partnerships</h2>
-				<div class="row container-margin">
-					<div class="col-md-3 logo-size">
-						<img src="img/logo-ex-1.png" class="logo-size" title="logo di esempio" alt="Logo di esempio per partnerships">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-3">
+						<img src="img/logo-ex-1.png" class="ex-logo-size" title="logo di esempio" alt="Logo di esempio per partnerships">
 					</div>
-					<div class="col-md-3 logo-size">	
-						<img src="img/logo-ex-2.png" class="logo-size" title="logo di esempio" alt="Logo di esempio per partnerships">
+					<div class="col-md-3">	
+						<img src="img/logo-ex-2.png" class="ex-logo-size" title="logo di esempio" alt="Logo di esempio per partnerships">
 					</div>
-					<div class="col-md-3 logo-size">
-						<img src="img/logo-ex-3.png" class="logo-size" title="logo di esempio" alt="Logo di esempio per partnerships">
+					<div class="col-md-3">
+						<img src="img/logo-ex-3.png" class="ex-logo-size" title="logo di esempio" alt="Logo di esempio per partnerships">
 					</div>
-					<div class="col-md-3 logo-size">	
-						<img src="img/logo-ex-4.png" class="logo-size" title="logo di esempio" alt="Logo di esempio per partnerships">
+					<div class="col-md-3">	
+						<img src="img/logo-ex-4.png" class="ex-logo-size" title="logo di esempio" alt="Logo di esempio per partnerships">
 					</div>
 				</div>
-			<hr class="white">	
-			<div class="footer container-margin">
-				<ul class="list-group list-group-horizontal-md">
-				  	<li class="list-group-item flex-fill txt footer navbar-color-li"><a href="#" title="Creatore">Andrea Ruzzeddu</a></li>
-				  	<li class="list-group-item flex-fill txt footer navbar-color-li"><a href="#" title="Cronologia degli aggiornamenti della collezione e del sito">Ultimo aggiornamento: 24/12/2023</a></li>
-				  	<li class="list-group-item flex-fill txt footer navbar-color-li"><a href="#" title="Bibliografia dei contenuti del sito">Bibliografia generale</a></li>
-				  	<li class="list-group-item flex-fill txt footer navbar-color-li"><a href="web-project-plan.html" title="Web Project Plan del sito">Web Project Plan</a></li>
-				  	<li class="list-group-item flex-fill txt footer navbar-color-li"><a href="#" title="Licenze dei contenuti">Copyrights</a></li>
-				</ul>
 			</div>
+			<hr class="hr-white">	
+			<ul class="list-group list-group-horizontal-md">
+			  	<li class="list-group-item flex-fill txt footer nav-footer-color"><a href="#" title="Creatore">Andrea Ruzzeddu</a></li>
+			  	<li class="list-group-item flex-fill txt footer nav-footer-color"><a href="#" title="Cronologia degli aggiornamenti della collezione e del sito">Ultimo aggiornamento: 24/12/2023</a></li>
+			  	<li class="list-group-item flex-fill txt footer nav-footer-color"><a href="#" title="Bibliografia dei contenuti del sito">Bibliografia generale</a></li>
+			  	<li class="list-group-item flex-fill txt footer nav-footer-color"><a href="web-project-plan.html" title="Web Project Plan del sito">Web Project Plan</a></li>
+			  	<li class="list-group-item flex-fill txt footer nav-footer-color"><a href="#" title="Licenze dei contenuti">Copyrights</a></li>
+			</ul>
 		</footer>
 
 	</body>
