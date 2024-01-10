@@ -18,11 +18,11 @@ h2 {
 	margin-top: 50px;
 }
 
-#link-black {
+.link-black {
 	color: black !important;
 }
 
-.txt {
+.txt-style {
 	text-align: center !important;
 	padding: 2.5%;
 	color: white;
@@ -52,9 +52,9 @@ h2 {
 
 .user-icon {
 	display: block;
+	margin-top: 50px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 50px;
 	width: 5em;
 	height: 5em;
 	background-color: white;
@@ -134,7 +134,7 @@ h2 {
 }
 
 .container-box {
-	padding:10px;
+	padding: 10px;
 	margin-left: 10%;
 	margin-right: 10%;
 	color: black;
@@ -147,11 +147,11 @@ h2 {
 
 .img-size {
 	margin-top: 6%;
+	margin-left: auto;
+	margin-right: auto;
 	width: 30%;
 	height: 30%;
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
 	border: solid;
 	border-color: black;
 	border-width: 3px;
@@ -171,10 +171,10 @@ h2 {
 
 .button-align {
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
 	margin-top: 2%;
+	margin-right: auto;
 	margin-bottom: 2%;
+	margin-left: auto;
 }
 
 .red-button-style {
@@ -199,28 +199,20 @@ h2 {
 
 .carousel-img {
 	margin: auto;
-	margin-bottom: 10% !important;
-}
-
-.row-style {
-	margin: auto;
-	padding-bottom: -8%;
-	padding-left: 8%;
-	padding-right: 8%;
-	text-align: center;
+	margin-bottom: 10%;
 }
 
 .row-margin {
-	margin-bottom: 50px;
+	margin-bottom: 6%;
 }
 
 .col-align {
 	margin: auto;
 }
 
-.card {
-	width:244px !important;
-	height: 345px !important;
+.card-size {
+	width: 244px;
+	height: 345px;
 	margin-left: auto;
 	margin-right: auto;
 	border-radius: 0;
@@ -260,6 +252,12 @@ h2 {
 	margin-right: auto;
 }
 
+.row-style {
+	margin-left: 8%;
+	margin-right: 8%;
+	text-align: center;
+}
+
 .txt-footer {
 	text-align: center !important;
 	margin-top: -5%;
@@ -288,17 +286,17 @@ h2 {
 
 			/* Stile esclusivo per fotografie.html */
 
-#breadcrumb-link {
+.breadcrumb-link {
 	color: darkgray !important;
 }
 
 .main-padding {
-	padding-bottom: 100px;
+	padding-bottom: 7%;
 }
 
 .box-1 {
 	line-height: 30px;
-	padding: 10px;
+	padding: 0.5%;
 	color: black;
 	background-color: white;
 	border-style: solid;
@@ -329,14 +327,14 @@ h2 {
 	border-radius: 0;
 	width: 40%;
 	height: 650px;
-	margin-top: 50px;
+	margin-top: 3.2%;
+	margin-right: -0.9%;
 	margin-bottom: 6%;
 	margin-left: 0.9%;
-	margin-right: -0.9%;
 }
 
 .dropdown-margin {
-	margin-top: 20px;
+	margin-top: 10%;
 }
 
 .dropdown-border {
@@ -344,21 +342,21 @@ h2 {
 }
 
 h3 {
-	padding-top: 8%;
+	margin-top: 8%;
 	font-size: 20px;
 }
 
 .col-margin {
-	margin-top: 50px;
-	margin-bottom: 50px;
+	margin-top: 4%;
+	margin-bottom: 3%;
 }
 
 .button-overlay-margin {
-	margin-top: 25px;
+	margin-top: 5%;
 }
 
 .card-img-size {
-	margin-top: 25px;
+	margin-top: 10%;
 	max-height: 121.43px;
 	object-fit: contain;
 }
@@ -395,8 +393,8 @@ h3 {
 
 			/* Stile esclusivo per elemento-foglia.html */
 
-#h2-special {
-	margin-top: 0;
+.h2-special {
+	margin-top: 0%;
 }
 
 .user-action {
@@ -409,20 +407,15 @@ h3 {
 	border-color: black;
 	border-radius: 0;
 	max-width: 12% !important;
-	height: 380px;
+	height: 340px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 17px;
+	margin-bottom: 1%;
 }
 
 .icon-action {
 	width: 2em;
 	height: 2em;
-}
-
-.metadata-table-margin {
-	margin-left: 20px;
-	margin-right: 20px;
 }
 
 #box-1-special {
@@ -432,7 +425,7 @@ h3 {
 #map {
 	height: 400px;
     width: 99%;
-    margin-top: 20px;
+    margin-top: 1%;
     z-index: 1;
 }
 
@@ -445,7 +438,7 @@ h3 {
 
 .button-list-position {
 	margin-top: 30%;
-	margin-bottom: 32px;
+	margin-bottom: 13%;
 	position: sticky;
 	top: 50px;
 }
@@ -480,6 +473,6 @@ h3 {
 	border-color: #660000 !important;
 }
 
-#img-width-plan {
-	width:45%;
+.img-width-plan {
+	width: 45%;
 }
