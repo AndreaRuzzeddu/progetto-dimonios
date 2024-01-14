@@ -86,7 +86,6 @@ h2 {
 .navbar-active {
 	color: white !important;
 	background-color: #660000 !important;
-	pointer-events: none;
 }
 
 .search-style {
