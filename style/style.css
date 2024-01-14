@@ -47,7 +47,7 @@ h2 {
 }
 
 .icon-img {
-	background-image: url("../img/head.jpeg");
+	background-image: url("../img/index/head.jpeg");
 }
 
 .user-icon {
@@ -118,7 +118,7 @@ h2 {
 }
 
 .container-hero {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/abstract.jpeg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/index/abstract.jpeg);
 	background-size: cover;
 	width: 100%;
 	height: auto;
