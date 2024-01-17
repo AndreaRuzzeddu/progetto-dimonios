@@ -376,7 +376,7 @@ h3 {
 
 .nav-pagination {
 	border-radius: 0 !important;
-	border: transparent;
+	border-style: transparent;
 	background-color: #b30000;
 	box-shadow: none !important;
 }
