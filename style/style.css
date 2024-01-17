@@ -154,7 +154,7 @@ h2 {
 	width: 30%;
 	height: 30%;
 	display: block;
-	border: solid;
+	border-style: solid;
 	border-color: black;
 	border-width: 3px;
 }
